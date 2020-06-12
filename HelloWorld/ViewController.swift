@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  HelloWorld
+//  HelloWorld example
 //
 //  Created by 임성현 on 2020/06/10.
 //  Copyright © 2020 임성현. All rights reserved.
