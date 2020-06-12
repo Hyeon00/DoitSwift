@@ -35,7 +35,7 @@ class ViewController: UIViewController {
 //        lblCurrentTime.text = String(count)
 //        count += 1
         
-        let date = NSDate()         // 현재시간 가져오기
+        let date = NSDate()         // 현재 시간 가져오기.
         
         let formatter = DateFormatter()
         formatter.dateFormat = "yyyy-MM-dd HH:mm:ss EEE"
