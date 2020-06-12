@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     let timeSelector: Selector = #selector(ViewController.updateTime)   // 타이머가 구동되면 실행할 함수를 지정.
-    let interval = 1.0      // 타이머의 간격 1.0 -> 1초
+    let interval = 1.0      // 타이머의 간격 1.0 -> 1초.
     var count = 0           // 타이머가 간격대로 실행되는지 확인하는 변수.
     
     @IBOutlet var lblCurrentTime: UILabel!
