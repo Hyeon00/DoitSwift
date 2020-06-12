@@ -13,6 +13,12 @@
 		CB12E38F2493430000007339 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB12E38D2493430000007339 /* Main.storyboard */; };
 		CB12E3912493430100007339 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB12E3902493430100007339 /* Assets.xcassets */; };
 		CB12E3942493430100007339 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB12E3922493430100007339 /* LaunchScreen.storyboard */; };
+		CB12E3A2249343DA00007339 /* 03.png in Resources */ = {isa = PBXBuildFile; fileRef = CB12E39C249343DA00007339 /* 03.png */; };
+		CB12E3A3249343DA00007339 /* 02.png in Resources */ = {isa = PBXBuildFile; fileRef = CB12E39D249343DA00007339 /* 02.png */; };
+		CB12E3A4249343DA00007339 /* 01.png in Resources */ = {isa = PBXBuildFile; fileRef = CB12E39E249343DA00007339 /* 01.png */; };
+		CB12E3A5249343DA00007339 /* 06.png in Resources */ = {isa = PBXBuildFile; fileRef = CB12E39F249343DA00007339 /* 06.png */; };
+		CB12E3A6249343DA00007339 /* 04.png in Resources */ = {isa = PBXBuildFile; fileRef = CB12E3A0249343DA00007339 /* 04.png */; };
+		CB12E3A7249343DA00007339 /* 05.png in Resources */ = {isa = PBXBuildFile; fileRef = CB12E3A1249343DA00007339 /* 05.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		CB12E3902493430100007339 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB12E3932493430100007339 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB12E3952493430200007339 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB12E39C249343DA00007339 /* 03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 03.png; sourceTree = "<group>"; };
+		CB12E39D249343DA00007339 /* 02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 02.png; sourceTree = "<group>"; };
+		CB12E39E249343DA00007339 /* 01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01.png; sourceTree = "<group>"; };
+		CB12E39F249343DA00007339 /* 06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 06.png; sourceTree = "<group>"; };
+		CB12E3A0249343DA00007339 /* 04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 04.png; sourceTree = "<group>"; };
+		CB12E3A1249343DA00007339 /* 05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 05.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 		CB12E3862493430000007339 /* PageControl */ = {
 			isa = PBXGroup;
 			children = (
+				CB12E39B2493439400007339 /* images */,
 				CB12E3872493430000007339 /* AppDelegate.swift */,
 				CB12E3892493430000007339 /* SceneDelegate.swift */,
 				CB12E38B2493430000007339 /* ViewController.swift */,
@@ -65,6 +78,19 @@
 				CB12E3952493430200007339 /* Info.plist */,
 			);
 			path = PageControl;
+			sourceTree = "<group>";
+		};
+		CB12E39B2493439400007339 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				CB12E39E249343DA00007339 /* 01.png */,
+				CB12E39D249343DA00007339 /* 02.png */,
+				CB12E39C249343DA00007339 /* 03.png */,
+				CB12E3A0249343DA00007339 /* 04.png */,
+				CB12E3A1249343DA00007339 /* 05.png */,
+				CB12E39F249343DA00007339 /* 06.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +151,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB12E3A4249343DA00007339 /* 01.png in Resources */,
+				CB12E3A3249343DA00007339 /* 02.png in Resources */,
+				CB12E3A2249343DA00007339 /* 03.png in Resources */,
 				CB12E3942493430100007339 /* LaunchScreen.storyboard in Resources */,
 				CB12E3912493430100007339 /* Assets.xcassets in Resources */,
+				CB12E3A7249343DA00007339 /* 05.png in Resources */,
+				CB12E3A6249343DA00007339 /* 04.png in Resources */,
+				CB12E3A5249343DA00007339 /* 06.png in Resources */,
 				CB12E38F2493430000007339 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
