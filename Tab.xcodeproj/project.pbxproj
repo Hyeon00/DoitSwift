@@ -13,6 +13,12 @@
 		CB12E3BC2494997500007339 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB12E3BA2494997500007339 /* Main.storyboard */; };
 		CB12E3BE2494997600007339 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB12E3BD2494997600007339 /* Assets.xcassets */; };
 		CB12E3C12494997600007339 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB12E3BF2494997600007339 /* LaunchScreen.storyboard */; };
+		CB12E3CA24949B3500007339 /* lamp_off.png in Resources */ = {isa = PBXBuildFile; fileRef = CB12E3C824949B3400007339 /* lamp_off.png */; };
+		CB12E3CB24949B3500007339 /* lamp_on.png in Resources */ = {isa = PBXBuildFile; fileRef = CB12E3C924949B3500007339 /* lamp_on.png */; };
+		CB12E3CD24949B8B00007339 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB12E3CC24949B8B00007339 /* ImageViewController.swift */; };
+		CB12E3CF24949CAD00007339 /* DateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB12E3CE24949CAD00007339 /* DateViewController.swift */; };
+		CB12E3D124949D5600007339 /* Calendar32.png in Resources */ = {isa = PBXBuildFile; fileRef = CB12E3D024949D5600007339 /* Calendar32.png */; };
+		CB12E3D324949F2600007339 /* File.png in Resources */ = {isa = PBXBuildFile; fileRef = CB12E3D224949F2600007339 /* File.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		CB12E3BD2494997600007339 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB12E3C02494997600007339 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB12E3C22494997600007339 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB12E3C824949B3400007339 /* lamp_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamp_off.png; sourceTree = "<group>"; };
+		CB12E3C924949B3500007339 /* lamp_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamp_on.png; sourceTree = "<group>"; };
+		CB12E3CC24949B8B00007339 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		CB12E3CE24949CAD00007339 /* DateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateViewController.swift; sourceTree = "<group>"; };
+		CB12E3D024949D5600007339 /* Calendar32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Calendar32.png; sourceTree = "<group>"; };
+		CB12E3D224949F2600007339 /* File.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = File.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +68,15 @@
 		CB12E3B32494997500007339 /* Tab */ = {
 			isa = PBXGroup;
 			children = (
+				CB12E3C824949B3400007339 /* lamp_off.png */,
+				CB12E3C924949B3500007339 /* lamp_on.png */,
+				CB12E3D024949D5600007339 /* Calendar32.png */,
+				CB12E3D224949F2600007339 /* File.png */,
 				CB12E3B42494997500007339 /* AppDelegate.swift */,
 				CB12E3B62494997500007339 /* SceneDelegate.swift */,
 				CB12E3B82494997500007339 /* ViewController.swift */,
+				CB12E3CC24949B8B00007339 /* ImageViewController.swift */,
+				CB12E3CE24949CAD00007339 /* DateViewController.swift */,
 				CB12E3BA2494997500007339 /* Main.storyboard */,
 				CB12E3BD2494997600007339 /* Assets.xcassets */,
 				CB12E3BF2494997600007339 /* LaunchScreen.storyboard */,
@@ -125,9 +143,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB12E3D124949D5600007339 /* Calendar32.png in Resources */,
 				CB12E3C12494997600007339 /* LaunchScreen.storyboard in Resources */,
 				CB12E3BE2494997600007339 /* Assets.xcassets in Resources */,
+				CB12E3D324949F2600007339 /* File.png in Resources */,
+				CB12E3CB24949B3500007339 /* lamp_on.png in Resources */,
 				CB12E3BC2494997500007339 /* Main.storyboard in Resources */,
+				CB12E3CA24949B3500007339 /* lamp_off.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +160,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB12E3CF24949CAD00007339 /* DateViewController.swift in Sources */,
 				CB12E3B92494997500007339 /* ViewController.swift in Sources */,
 				CB12E3B52494997500007339 /* AppDelegate.swift in Sources */,
+				CB12E3CD24949B8B00007339 /* ImageViewController.swift in Sources */,
 				CB12E3B72494997500007339 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
