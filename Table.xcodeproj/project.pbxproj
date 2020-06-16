@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		CB12E41D2497CA0200007339 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB12E41C2497CA0200007339 /* AppDelegate.swift */; };
 		CB12E41F2497CA0200007339 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB12E41E2497CA0200007339 /* SceneDelegate.swift */; };
-		CB12E4212497CA0200007339 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB12E4202497CA0200007339 /* ViewController.swift */; };
 		CB12E4242497CA0200007339 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB12E4222497CA0200007339 /* Main.storyboard */; };
 		CB12E4262497CA0400007339 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB12E4252497CA0400007339 /* Assets.xcassets */; };
 		CB12E4292497CA0400007339 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB12E4272497CA0400007339 /* LaunchScreen.storyboard */; };
+		CB12E4312497D18C00007339 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB12E4302497D18C00007339 /* TableViewController.swift */; };
+		CB12E4332497D1B600007339 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB12E4322497D1B600007339 /* AddViewController.swift */; };
+		CB12E4352497D1C400007339 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB12E4342497D1C400007339 /* DetailViewController.swift */; };
+		CB12E4392497D35800007339 /* cart.png in Resources */ = {isa = PBXBuildFile; fileRef = CB12E4362497D35800007339 /* cart.png */; };
+		CB12E43A2497D35800007339 /* pencil.png in Resources */ = {isa = PBXBuildFile; fileRef = CB12E4372497D35800007339 /* pencil.png */; };
+		CB12E43B2497D35800007339 /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = CB12E4382497D35800007339 /* clock.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CB12E4192497CA0200007339 /* Table.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Table.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB12E41C2497CA0200007339 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB12E41E2497CA0200007339 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CB12E4202497CA0200007339 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CB12E4232497CA0200007339 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB12E4252497CA0400007339 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB12E4282497CA0400007339 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB12E42A2497CA0400007339 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB12E4302497D18C00007339 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		CB12E4322497D1B600007339 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		CB12E4342497D1C400007339 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		CB12E4362497D35800007339 /* cart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cart.png; sourceTree = "<group>"; };
+		CB12E4372497D35800007339 /* pencil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pencil.png; sourceTree = "<group>"; };
+		CB12E4382497D35800007339 /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +66,18 @@
 		CB12E41B2497CA0200007339 /* Table */ = {
 			isa = PBXGroup;
 			children = (
+				CB12E4362497D35800007339 /* cart.png */,
+				CB12E4382497D35800007339 /* clock.png */,
+				CB12E4372497D35800007339 /* pencil.png */,
 				CB12E41C2497CA0200007339 /* AppDelegate.swift */,
 				CB12E41E2497CA0200007339 /* SceneDelegate.swift */,
-				CB12E4202497CA0200007339 /* ViewController.swift */,
 				CB12E4222497CA0200007339 /* Main.storyboard */,
 				CB12E4252497CA0400007339 /* Assets.xcassets */,
 				CB12E4272497CA0400007339 /* LaunchScreen.storyboard */,
 				CB12E42A2497CA0400007339 /* Info.plist */,
+				CB12E4302497D18C00007339 /* TableViewController.swift */,
+				CB12E4322497D1B600007339 /* AddViewController.swift */,
+				CB12E4342497D1C400007339 /* DetailViewController.swift */,
 			);
 			path = Table;
 			sourceTree = "<group>";
@@ -125,7 +140,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB12E43B2497D35800007339 /* clock.png in Resources */,
+				CB12E43A2497D35800007339 /* pencil.png in Resources */,
 				CB12E4292497CA0400007339 /* LaunchScreen.storyboard in Resources */,
+				CB12E4392497D35800007339 /* cart.png in Resources */,
 				CB12E4262497CA0400007339 /* Assets.xcassets in Resources */,
 				CB12E4242497CA0200007339 /* Main.storyboard in Resources */,
 			);
@@ -138,8 +156,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB12E4212497CA0200007339 /* ViewController.swift in Sources */,
 				CB12E41D2497CA0200007339 /* AppDelegate.swift in Sources */,
+				CB12E4312497D18C00007339 /* TableViewController.swift in Sources */,
+				CB12E4352497D1C400007339 /* DetailViewController.swift in Sources */,
+				CB12E4332497D1B600007339 /* AddViewController.swift in Sources */,
 				CB12E41F2497CA0200007339 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
