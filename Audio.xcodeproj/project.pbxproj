@@ -13,6 +13,7 @@
 		CB12E4B22498929200007339 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB12E4B02498929200007339 /* Main.storyboard */; };
 		CB12E4B42498929400007339 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB12E4B32498929400007339 /* Assets.xcassets */; };
 		CB12E4B72498929400007339 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB12E4B52498929400007339 /* LaunchScreen.storyboard */; };
+		CB12E4BF249A051000007339 /* Sicilian_Breeze.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CB12E4BE249A051000007339 /* Sicilian_Breeze.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CB12E4B32498929400007339 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB12E4B62498929400007339 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB12E4B82498929400007339 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB12E4BE249A051000007339 /* Sicilian_Breeze.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sicilian_Breeze.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		CB12E4A92498929200007339 /* Audio */ = {
 			isa = PBXGroup;
 			children = (
+				CB12E4BE249A051000007339 /* Sicilian_Breeze.mp3 */,
 				CB12E4AA2498929200007339 /* AppDelegate.swift */,
 				CB12E4AC2498929200007339 /* SceneDelegate.swift */,
 				CB12E4AE2498929200007339 /* ViewController.swift */,
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB12E4B72498929400007339 /* LaunchScreen.storyboard in Resources */,
+				CB12E4BF249A051000007339 /* Sicilian_Breeze.mp3 in Resources */,
 				CB12E4B42498929400007339 /* Assets.xcassets in Resources */,
 				CB12E4B22498929200007339 /* Main.storyboard in Resources */,
 			);
