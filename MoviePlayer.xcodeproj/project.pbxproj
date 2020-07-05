@@ -13,6 +13,9 @@
 		CBC6D39D24B2300C005F1BAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBC6D39B24B2300C005F1BAA /* Main.storyboard */; };
 		CBC6D39F24B23010005F1BAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBC6D39E24B23010005F1BAA /* Assets.xcassets */; };
 		CBC6D3A224B23010005F1BAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBC6D3A024B23010005F1BAA /* LaunchScreen.storyboard */; };
+		CBC6D3AD24B231CC005F1BAA /* Fireworks.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CBC6D3AA24B231CC005F1BAA /* Fireworks.jpg */; };
+		CBC6D3AE24B231CC005F1BAA /* FastTyping.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CBC6D3AB24B231CC005F1BAA /* FastTyping.jpg */; };
+		CBC6D3AF24B231CC005F1BAA /* FastTyping.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CBC6D3AC24B231CC005F1BAA /* FastTyping.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		CBC6D39E24B23010005F1BAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBC6D3A124B23010005F1BAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CBC6D3A324B23010005F1BAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBC6D3AA24B231CC005F1BAA /* Fireworks.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Fireworks.jpg; sourceTree = "<group>"; };
+		CBC6D3AB24B231CC005F1BAA /* FastTyping.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FastTyping.jpg; sourceTree = "<group>"; };
+		CBC6D3AC24B231CC005F1BAA /* FastTyping.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = FastTyping.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 		CBC6D39424B2300C005F1BAA /* MoviePlayer */ = {
 			isa = PBXGroup;
 			children = (
+				CBC6D3A924B231AE005F1BAA /* Resources */,
 				CBC6D39524B2300C005F1BAA /* AppDelegate.swift */,
 				CBC6D39724B2300C005F1BAA /* SceneDelegate.swift */,
 				CBC6D39924B2300C005F1BAA /* ViewController.swift */,
@@ -65,6 +72,16 @@
 				CBC6D3A324B23010005F1BAA /* Info.plist */,
 			);
 			path = MoviePlayer;
+			sourceTree = "<group>";
+		};
+		CBC6D3A924B231AE005F1BAA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CBC6D3AB24B231CC005F1BAA /* FastTyping.jpg */,
+				CBC6D3AC24B231CC005F1BAA /* FastTyping.mp4 */,
+				CBC6D3AA24B231CC005F1BAA /* Fireworks.jpg */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +142,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBC6D3AD24B231CC005F1BAA /* Fireworks.jpg in Resources */,
 				CBC6D3A224B23010005F1BAA /* LaunchScreen.storyboard in Resources */,
+				CBC6D3AF24B231CC005F1BAA /* FastTyping.mp4 in Resources */,
+				CBC6D3AE24B231CC005F1BAA /* FastTyping.jpg in Resources */,
 				CBC6D39F24B23010005F1BAA /* Assets.xcassets in Resources */,
 				CBC6D39D24B2300C005F1BAA /* Main.storyboard in Resources */,
 			);
