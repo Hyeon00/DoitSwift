@@ -13,6 +13,7 @@
 		CBC29FF324D1C14100E2F93B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBC29FF124D1C14100E2F93B /* Main.storyboard */; };
 		CBC29FF524D1C14300E2F93B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBC29FF424D1C14300E2F93B /* Assets.xcassets */; };
 		CBC29FF824D1C14300E2F93B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBC29FF624D1C14300E2F93B /* LaunchScreen.storyboard */; };
+		CBC2A00024D1C72700E2F93B /* img-06.png in Resources */ = {isa = PBXBuildFile; fileRef = CBC29FFF24D1C72700E2F93B /* img-06.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CBC29FF424D1C14300E2F93B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBC29FF724D1C14300E2F93B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CBC29FF924D1C14300E2F93B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBC29FFF24D1C72700E2F93B /* img-06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "img-06.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		CBC29FEA24D1C14100E2F93B /* PinchGesture */ = {
 			isa = PBXGroup;
 			children = (
+				CBC29FFF24D1C72700E2F93B /* img-06.png */,
 				CBC29FEB24D1C14100E2F93B /* AppDelegate.swift */,
 				CBC29FED24D1C14100E2F93B /* SceneDelegate.swift */,
 				CBC29FEF24D1C14100E2F93B /* ViewController.swift */,
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBC29FF824D1C14300E2F93B /* LaunchScreen.storyboard in Resources */,
+				CBC2A00024D1C72700E2F93B /* img-06.png in Resources */,
 				CBC29FF524D1C14300E2F93B /* Assets.xcassets in Resources */,
 				CBC29FF324D1C14100E2F93B /* Main.storyboard in Resources */,
 			);
